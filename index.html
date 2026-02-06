@@ -50,10 +50,20 @@
       box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     }
 
+    .ad-image {
+      width: 100%;
+      max-width: 900px;
+      display: block;
+      margin: 40px auto 0;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    }
+
     .videos {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       gap: 30px;
+      justify-content: center;
     }
 
     .video-wrapper {
@@ -102,6 +112,9 @@
     <img src="ingredient.jpeg" alt="Gopu's Herbal Ingredients">
     <img src="howtouse.jpeg" alt="Gopu's Herbal Product">
   </div>
+
+  <!-- Advertisement Image -->
+  <img src="adv.jpeg" alt="Gopu's Herbal Advertisement" class="ad-image">
 </section>
 
 <!-- VIDEO SECTION -->
@@ -112,19 +125,11 @@
   <div class="videos">
     <div class="video-wrapper">
       <iframe 
-         width="560"
+        width="560"
         height="315"
         src="https://www.youtube.com/embed/B35Hbn1kurw"
         title="Gopu's Herbal Video"
-        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-      </iframe>
-    </div>
-
-    <div class="video-wrapper">
-      <iframe 
-        src="https://www.youtube.com/embed/VIDEO_ID_2"
         allowfullscreen>
       </iframe>
     </div>
@@ -138,10 +143,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
